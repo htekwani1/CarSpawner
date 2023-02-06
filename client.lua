@@ -1,5 +1,5 @@
 RegisterNetEvent("harsh:carspawner")
-AddEventHandler("harsh:carspawner", function(source)
+AddEventHandler("harsh:carspawner", function(source, args)
     local vehicleName = source[1]
     print('local source is: ' .. vehicleName)
 
